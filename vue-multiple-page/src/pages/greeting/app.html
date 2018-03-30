@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title th:text="${pageTitle}">vue-multiple-page</title>
+  </head>
+  <body>
+    <script th:inline="javascript">
+      /*<![CDATA[*/
+        var message = /*[[${message}]]*/ 'default';
+      /*]]>*/
+        </script>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
